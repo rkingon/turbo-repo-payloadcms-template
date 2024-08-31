@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "next dev --port=3001",
     "lint": "next lint",
     "start": "next start"
   },
