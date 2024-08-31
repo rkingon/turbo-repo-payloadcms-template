@@ -5,7 +5,7 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "format": "prettier --write --cache .",
-    "sort-package-json": "sort-package-json package.json \"apps/**/package.json\" \"packages/**/package.json\"",
+    "sort-package-json": "sort-package-json package.json \"apps/*/package.json\" \"packages/*/package.json\"",
     "stack:down": "turbo stack:down",
     "stack:stop": "turbo stack:stop",
     "stack:up": "turbo stack:up",
