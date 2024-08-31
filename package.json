@@ -1,5 +1,5 @@
 {
-  "name": "turbo-repo",
+  "name": "turbo-repo-payloadcms-template",
   "private": true,
   "scripts": {
     "build": "turbo build",
