@@ -13,6 +13,15 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "stack:up": {
+      "cache": false
+    },
+    "stack:down": {
+      "cache": false
+    },
+    "stack:stop": {
+      "cache": false
     }
   }
 }

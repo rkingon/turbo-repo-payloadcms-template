@@ -4,7 +4,10 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "stack:up": "turbo stack:up",
+    "stack:down": "turbo stack:down",
+    "stack:stop": "turbo stack:stop"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
