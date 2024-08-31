@@ -6,8 +6,8 @@
   "license": "ISC",
   "author": "",
   "scripts": {
-    "stack:up": "docker-compose up -d",
     "stack:down": "docker-compose down",
-    "stack:stop": "docker-compose stop"
+    "stack:stop": "docker-compose stop",
+    "stack:up": "docker-compose up -d"
   }
 }
