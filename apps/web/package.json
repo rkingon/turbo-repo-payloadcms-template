@@ -9,9 +9,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "admin": "workspace:*",
     "next": "15.0.0-canary.136",
     "react": "19.0.0-rc-7771d3a7-20240827",
-    "react-dom": "19.0.0-rc-7771d3a7-20240827"
+    "react-dom": "19.0.0-rc-7771d3a7-20240827",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@types/node": "^20",
