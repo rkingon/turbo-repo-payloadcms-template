@@ -9,6 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@repo/ui": "workspace:*",
     "admin": "workspace:*",
     "next": "15.0.0-canary.136",
     "react": "19.0.0-rc-7771d3a7-20240827",

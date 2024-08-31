@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getPayload } from "admin";
+import { Button } from "@repo/ui";
 
 export default async function Home() {
   const payload = await getPayload();
@@ -53,6 +54,7 @@ export default async function Home() {
           >
             Read our docs
           </a>
+          <Button>Shadcn Button</Button>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
