@@ -1,12 +1,17 @@
 import react from "@vitejs/plugin-react";
+import path from "path";
 import preserveDirectives from "rollup-plugin-preserve-directives";
 import tailwindcss from "tailwindcss";
 import { defineConfig } from "vite";
 import dts from "vite-plugin-dts";
-import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  plugins: [react(), tsconfigPaths(), dts()],
+  plugins: [react(), dts()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
   css: {
     postcss: {
       plugins: [tailwindcss()],

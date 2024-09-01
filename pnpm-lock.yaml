@@ -183,9 +183,6 @@ importers:
       vite-plugin-dts:
         specifier: ^4.1.0
         version: 4.1.0(@types/node@20.16.2)(rollup@4.21.2)(typescript@5.4.5)(vite@5.4.2(@types/node@20.16.2)(sass@1.77.4))
-      vite-tsconfig-paths:
-        specifier: ^5.0.1
-        version: 5.0.1(typescript@5.4.5)(vite@5.4.2(@types/node@20.16.2)(sass@1.77.4))
 
 packages:
   "@alloc/quick-lru@5.2.0":
@@ -4789,12 +4786,6 @@ packages:
       }
     engines: { node: ">=18" }
 
-  globrex@0.1.2:
-    resolution:
-      {
-        integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==,
-      }
-
   graceful-fs@4.2.11:
     resolution:
       {
@@ -6896,19 +6887,6 @@ packages:
         integrity: sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==,
       }
 
-  tsconfck@3.1.3:
-    resolution:
-      {
-        integrity: sha512-ulNZP1SVpRDesxeMLON/LtWM8HIgAJEIVpVVhBM6gsmvQ8+Rh+ZG7FWGvHh7Ah3pRABwVJWklWCr/BTZSv0xnQ==,
-      }
-    engines: { node: ^18 || >=20 }
-    hasBin: true
-    peerDependencies:
-      typescript: ^5.0.0
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-
   tslib@1.14.1:
     resolution:
       {
@@ -7149,17 +7127,6 @@ packages:
     engines: { node: ^14.18.0 || >=16.0.0 }
     peerDependencies:
       typescript: "*"
-      vite: "*"
-    peerDependenciesMeta:
-      vite:
-        optional: true
-
-  vite-tsconfig-paths@5.0.1:
-    resolution:
-      {
-        integrity: sha512-yqwv+LstU7NwPeNqajZzLEBVpUFU6Dugtb2P84FXuvaoYA+/70l9MHE+GYfYAycVyPSDYZ7mjOFuYBRqlEpTig==,
-      }
-    peerDependencies:
       vite: "*"
     peerDependenciesMeta:
       vite:
@@ -10669,8 +10636,6 @@ snapshots:
       slash: 5.1.0
       unicorn-magic: 0.1.0
 
-  globrex@0.1.2: {}
-
   graceful-fs@4.2.11: {}
 
   graphql-http@1.22.1(graphql@16.9.0):
@@ -11921,10 +11886,6 @@ snapshots:
 
   ts-toolbelt@9.6.0: {}
 
-  tsconfck@3.1.3(typescript@5.4.5):
-    optionalDependencies:
-      typescript: 5.4.5
-
   tslib@1.14.1: {}
 
   tslib@2.7.0: {}
@@ -12046,17 +12007,6 @@ snapshots:
       - "@types/node"
       - rollup
       - supports-color
-
-  vite-tsconfig-paths@5.0.1(typescript@5.4.5)(vite@5.4.2(@types/node@20.16.2)(sass@1.77.4)):
-    dependencies:
-      debug: 4.3.6
-      globrex: 0.1.2
-      tsconfck: 3.1.3(typescript@5.4.5)
-    optionalDependencies:
-      vite: 5.4.2(@types/node@20.16.2)(sass@1.77.4)
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
 
   vite@5.4.2(@types/node@20.16.2)(sass@1.77.4):
     dependencies:
