@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { getPayload } from "admin";
-import { Button } from "@repo/ui";
+import { Button } from "@repo/ui/components/ui/button";
+import { ComboboxDemo } from "@repo/ui/components/combobox-demo";
 
 export default async function Home() {
   const payload = await getPayload();
@@ -55,6 +56,7 @@ export default async function Home() {
             Read our docs
           </a>
           <Button>Shadcn Button</Button>
+          <ComboboxDemo />
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
