@@ -1,7 +1,7 @@
+import type { Config } from "tailwindcss";
 import tailwindcssAnimate from "tailwindcss-animate";
 
-/** @type {import('tailwindcss').Config} */
-export default {
+const config: Config = {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     container: {
@@ -73,3 +73,5 @@ export default {
   },
   plugins: [tailwindcssAnimate],
 };
+
+export default config;

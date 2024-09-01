@@ -10,7 +10,7 @@
   "types": "dist/main.d.ts",
   "scripts": {
     "build": "rimraf dist && vite build",
-    "dev": "pnpm build --watch"
+    "dev": "pnpm build --watch --mode=development"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.1",
