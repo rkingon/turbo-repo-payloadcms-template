@@ -4,7 +4,7 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "format": "prettier --write --cache .",
+    "format": "prettier --write --cache --plugin=prettier-plugin-organize-imports .",
     "sort-package-json": "sort-package-json package.json \"apps/*/package.json\" \"packages/*/package.json\"",
     "stack:down": "turbo stack:down",
     "stack:stop": "turbo stack:stop",
@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "prettier": "^3.2.5",
+    "prettier-plugin-organize-imports": "^4.0.0",
     "sort-package-json": "^2.10.1",
     "syncpack": "^13.0.0",
     "turbo": "^2.1.1",
