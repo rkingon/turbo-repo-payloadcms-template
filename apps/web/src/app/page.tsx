@@ -1,6 +1,6 @@
+import { getPayload } from "@repo/payload-config";
 import { ComboboxDemo } from "@repo/ui/components/combobox-demo";
 import { Button } from "@repo/ui/components/ui/button";
-import { getPayload } from "admin";
 import Image from "next/image";
 
 export default async function Home() {
